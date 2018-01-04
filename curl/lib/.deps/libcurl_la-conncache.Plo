@@ -1,0 +1,507 @@
+libcurl_la-conncache.lo: conncache.c curl_setup.h curl_config.h \
+ ../include/curl/curlbuild.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/types.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/stdint.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/machine/wchar_limits.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/cdefs.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/cdefs_elf.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/android/api-level.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/types.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/types.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/types.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/int-ll64.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/bitsperlong.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/bitsperlong.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/posix_types.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/stddef.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/compiler.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/posix_types.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/posix_types.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/sysmacros.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/inttypes.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/socket.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/socket.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/fcntl.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/fcntl.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/socket.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/socket.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/sockios.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/sockios.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/sockios.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/uio.h \
+ ../include/curl/curlrules.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/stdio.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/assert.h \
+ curl_setup_once.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/stdlib.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/string.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/malloc.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/xlocale.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/alloca.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/strings.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/memory.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/ctype.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/errno.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/errno.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/errno.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/errno.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/errno-base.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/stat.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/time.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/time.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/stat.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/endian.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/endian.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/machine/endian.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/time.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include/stdbool.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/unistd.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/select.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/signal.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/limits.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/limits.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/limits.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/syslimits.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/sigcontext.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/signal.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/signal.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/signal-defs.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/siginfo.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/siginfo.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/ucontext.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/user.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/sysconf.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/pathconf.h \
+ ../include/curl/curl.h ../include/curl/curlver.h \
+ ../include/curl/curlbuild.h ../include/curl/curlrules.h \
+ ../include/curl/easy.h ../include/curl/multi.h ../include/curl/curl.h \
+ ../include/curl/typecheck-gcc.h urldata.h cookie.h formdata.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/rsa.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/asn1.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/e_os2.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/opensslconf.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/bio.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/crypto.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/stack.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/safestack.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/opensslv.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ossl_typ.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/symhacks.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/bn.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/x509.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/buffer.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/evp.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/objects.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/obj_mac.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ec.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ecdsa.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ecdh.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/dsa.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/dh.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/sha.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/x509_vfy.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/lhash.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/pkcs7.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/pem.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/pem2.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ssl.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/comp.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/hmac.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/kssl.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ssl2.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ssl3.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/tls1.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/dtls1.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/pqueue.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ssl23.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/srtp.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/err.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/engine.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/rand.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ui.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/pkcs12.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/netinet/in.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/netinet/in6.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/in6.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/libc-compat.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/in.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/byteorder.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/byteorder/little_endian.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/swab.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/swab.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/ipv6.h \
+ timeval.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/zlib.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/zconf.h \
+ http_chunks.h hostip.h hash.h llist.h curl_addrinfo.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/netdb.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/arpa/inet.h \
+ asyn.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/setjmp.h \
+ /Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/machine/setjmp.h \
+ splay.h imap.h pingpong.h pop3.h smtp.h ftp.h file.h ssh.h http.h rtsp.h \
+ wildcard.h multihandle.h url.h progress.h multiif.h sendf.h rawstr.h \
+ bundles.h conncache.h curl_memory.h memdebug.h
+
+curl_setup.h:
+
+curl_config.h:
+
+../include/curl/curlbuild.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/types.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/stdint.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/machine/wchar_limits.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/cdefs.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/cdefs_elf.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/android/api-level.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/types.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/types.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/types.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/bitsperlong.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/posix_types.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/stddef.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/compiler.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/posix_types.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/posix_types.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/sysmacros.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/inttypes.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/socket.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/socket.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/fcntl.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/fcntl.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/socket.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/socket.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/sockios.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/sockios.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/sockios.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/uio.h:
+
+../include/curl/curlrules.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/stdio.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/assert.h:
+
+curl_setup_once.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/stdlib.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/string.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/malloc.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/xlocale.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/alloca.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/strings.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/memory.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/ctype.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/errno.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/errno.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/errno.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/errno.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/errno-base.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/stat.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/time.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/time.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/stat.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/endian.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/endian.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/machine/endian.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/time.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include/stdbool.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/unistd.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/select.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/signal.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/limits.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/limits.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/limits.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/syslimits.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/sigcontext.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/signal.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/signal.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/signal-defs.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/siginfo.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm-generic/siginfo.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/ucontext.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/user.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/sys/sysconf.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/pathconf.h:
+
+../include/curl/curl.h:
+
+../include/curl/curlver.h:
+
+../include/curl/curlbuild.h:
+
+../include/curl/curlrules.h:
+
+../include/curl/easy.h:
+
+../include/curl/multi.h:
+
+../include/curl/curl.h:
+
+../include/curl/typecheck-gcc.h:
+
+urldata.h:
+
+cookie.h:
+
+formdata.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/rsa.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/asn1.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/e_os2.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/opensslconf.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/bio.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/crypto.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/stack.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/safestack.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/opensslv.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ossl_typ.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/symhacks.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/bn.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/x509.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/buffer.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/evp.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/objects.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/obj_mac.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ec.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ecdsa.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ecdh.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/dsa.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/dh.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/sha.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/x509_vfy.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/lhash.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/pkcs7.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/pem.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/pem2.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ssl.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/comp.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/hmac.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/kssl.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ssl2.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ssl3.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/tls1.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/dtls1.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/pqueue.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ssl23.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/srtp.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/err.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/engine.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/rand.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/ui.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/include/openssl/pkcs12.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/netinet/in.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/netinet/in6.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/in6.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/libc-compat.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/in.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/byteorder.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/byteorder/little_endian.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/swab.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/asm/swab.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/linux/ipv6.h:
+
+timeval.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/zlib.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/zconf.h:
+
+http_chunks.h:
+
+hostip.h:
+
+hash.h:
+
+llist.h:
+
+curl_addrinfo.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/netdb.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/arpa/inet.h:
+
+asyn.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/setjmp.h:
+
+/Users/lifujun/Code/github/android-curl/toolchain-android/sysroot/usr/include/machine/setjmp.h:
+
+splay.h:
+
+imap.h:
+
+pingpong.h:
+
+pop3.h:
+
+smtp.h:
+
+ftp.h:
+
+file.h:
+
+ssh.h:
+
+http.h:
+
+rtsp.h:
+
+wildcard.h:
+
+multihandle.h:
+
+url.h:
+
+progress.h:
+
+multiif.h:
+
+sendf.h:
+
+rawstr.h:
+
+bundles.h:
+
+conncache.h:
+
+curl_memory.h:
+
+memdebug.h:
